@@ -24,3 +24,11 @@ html[data-theme="dark"] {
   --color-text-main: #f7f6f6;
   --color-text-secondary: #ffffff;
 }
+
+html[data-theme="light"] .button-into-dark-mode {
+  display: none;
+}
+
+html[data-theme="dark"] .button-into-light-mode {
+  display: none;
+}
