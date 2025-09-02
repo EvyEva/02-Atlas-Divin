@@ -12,3 +12,15 @@ img,
 video {
   display: block;
 }
+
+html {
+  --color-bg: aqua;
+  --color-text-main: blue;
+  --color-text-secondary: red;
+}
+
+html[data-theme="dark"] {
+  --color-bg: #696a6c;
+  --color-text-main: #f7f6f6;
+  --color-text-secondary: #ffffff;
+}
