@@ -5,10 +5,261 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello world</h1>
-    <p>lorem ipsum</p>
+    <header>
+      <h1>Atlas Divin</h1>
+      <nav>
+        <ul>
+          <li>Mes Favoris</li>
+          <li>Dieu du jour</li>
+          <li>Dieux populaires</li>
+        </ul>
+      </nav>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="21"
+          viewBox="0 0 20 21"
+          fill="none"
+        >
+          <path
+            d="M10 1.5C10.132 1.5 10.263 1.5 10.393 1.5C9.10837 2.69371 8.28262 4.29984 8.05932 6.03922C7.83602 7.7786 8.22928 9.54123 9.17076 11.0207C10.1122 12.5002 11.5424 13.603 13.2126 14.1375C14.8829 14.6719 16.6876 14.6041 18.313 13.946C17.6878 15.4505 16.6658 16.757 15.3562 17.7263C14.0466 18.6955 12.4985 19.291 10.8769 19.4494C9.2554 19.6077 7.62129 19.323 6.14892 18.6254C4.67654 17.9278 3.42114 16.8437 2.51661 15.4886C1.61209 14.1335 1.09238 12.5583 1.01291 10.931C0.933445 9.30366 1.29721 7.6853 2.0654 6.24851C2.83359 4.81173 3.97739 3.61042 5.37479 2.77273C6.77219 1.93504 8.37078 1.49239 10 1.492V1.5Z"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="25"
+          viewBox="0 0 24 25"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_57_2369)">
+            <path
+              d="M4 6.5H20"
+              stroke="#21272A"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4 12.5H20"
+              stroke="#21272A"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4 18.5H16"
+              stroke="#21272A"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_57_2369">
+              <rect
+                width="24"
+                height="24"
+                fill="white"
+                transform="translate(0 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <h2>Voir les dieux des panthéons</h2>
+      <section class="section-daily-god-whole">
+        <h4>Dieu du jour</h4>
+        <h3>Bacchus</h3>
+        <p class="section-daily-god-description">Dieu romain du vin</p>
+        <p class="section-daily-god-description">
+          Egalement Dieu de l'ivresse, des débordements, de la nature et des
+          festivités.
+        </p>
+        <p class="section-daily-god-description">
+          Bacchus est un dieu romain correspondant à Dionysos dans la mythologie
+          grecque. Les Romains utilisaient Bacchus comme un autre nom de Liber
+          Pater, un dieu latin de la fécondité.
+        </p>
+        <div class="section-daily-god-learn-more">
+          <a href="https://fr.wikipedia.org/wiki/Bacchus">En savoir plus </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_113_915)">
+              <path
+                d="M5 12H19"
+                stroke="#515050"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15 16L19 12"
+                stroke="#515050"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15 8L19 12"
+                stroke="#515050"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_113_915">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </section>
+
+      <section class="filter-whole">
+        <h5>Panthéons populaires</h5>
+        <button class="filter-greek">Panthéon Grec</button>
+        <button class="filter-egypt">Panthéon Égyptien</button>
+        <button class="filter-norse">Panthéon Nordique</button>
+        <button class="filter-roman">Panthéon Romain</button>
+      </section>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <article class="card card-greek">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.37868 2.37868C5.94129 1.81607 6.70435 1.5 7.5 1.5H16.5C17.2956 1.5 18.0587 1.81607 18.6213 2.37868C19.1839 2.94129 19.5 3.70435 19.5 4.5V21.75C19.5 22.0453 19.3267 22.3132 19.0572 22.4342C18.7878 22.5552 18.4725 22.5068 18.2517 22.3106L12 16.7535L5.74827 22.3106C5.52753 22.5068 5.21218 22.5552 4.94276 22.4342C4.67333 22.3132 4.5 22.0453 4.5 21.75V4.5C4.5 3.70435 4.81607 2.94129 5.37868 2.37868ZM7.5 3C7.10218 3 6.72064 3.15804 6.43934 3.43934C6.15804 3.72064 6 4.10218 6 4.5V20.0799L11.5017 15.1894C11.7859 14.9369 12.2141 14.9369 12.4983 15.1894L18 20.0799V4.5C18 4.10218 17.842 3.72064 17.5607 3.43934C17.2794 3.15804 16.8978 3 16.5 3H7.5Z"
+                  fill="#279EF8"
+                />
+              </svg>
+              <img src="Images/placeholder.png" alt="" />
+              <h6>Athena</h6>
+              <div class="card-greek-description">
+                <div class="card-greek-pantheon-whole">
+                  <p class="card-greek-pantheon">Panthéon grec</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="23"
+                    viewBox="0 0 24 23"
+                    fill="none"
+                  >
+                    <path
+                      d="M12 0.982788C5.85612 0.982788 0.857143 5.36404 0.857143 10.7488C0.857143 14.6893 3.60746 18.168 7.71428 19.6858V20.5148H1.71429V19.0123H0V22.0172H9.42857V18.7159L8.8577 18.5385C5.08557 17.3693 2.57143 14.2523 2.57143 10.7489C2.57143 6.17611 6.78259 2.48536 12 2.48536C17.2174 2.48536 21.4286 6.17611 21.4286 10.7489C21.4286 14.2523 18.9143 17.3693 15.1456 18.5385L14.5764 18.7159L14.5698 22.0172H24V19.0123H22.2857V20.5148H16.2874L16.2891 19.6843C20.3927 18.1663 23.1429 14.6891 23.1429 10.7488C23.1429 5.36404 18.1439 0.982788 12 0.982788Z"
+                      fill="#279EF8"
+                    />
+                  </svg>
+                </div>
+                <p class="card-greek-role">Déesse de la guerre</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-whole">
+      <div class="footer-links">
+        <a href="https://www.larousse.fr/dictionnaires/francais/favori/33085"
+          >Mes Favoris</a
+        >
+        <a href="https://fr.wikipedia.org/wiki/Bacchus">Dieu du jour</a>
+        <a href="https://www.thetoptens.com/religion/gods/">Dieux populaires</a>
+        <a
+          href="https://www.ige.ch/fr/mentions-legales/politique-de-confidentialite"
+          >Politique de confidentialité</a
+        >
+      </div>
+      <div class="footer-logos">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="14"
+          viewBox="0 0 20 14"
+          fill="none"
+        >
+          <path
+            d="M15.812 0.0171133H4.145C1.855 0.0171133 0 1.85211 0 4.11611V9.88411C0 12.1481 1.856 13.9841 4.145 13.9841H15.812C18.102 13.9841 19.957 12.1481 19.957 9.88411V4.11611C19.957 1.85211 18.101 0.0161133 15.812 0.0161133V0.0171133ZM13.009 7.28011L7.552 9.85511C7.51872 9.87114 7.48192 9.87848 7.44503 9.87647C7.40815 9.87445 7.37237 9.86313 7.34103 9.84357C7.3097 9.82401 7.28382 9.79684 7.2658 9.76459C7.24779 9.73234 7.23822 9.69605 7.238 9.65911V4.35011C7.23867 4.31299 7.24872 4.27663 7.26722 4.24444C7.28573 4.21224 7.31208 4.18526 7.34382 4.16599C7.37556 4.14673 7.41167 4.13581 7.44877 4.13425C7.48587 4.1327 7.52276 4.14057 7.556 4.15711L13.014 6.89211C13.0504 6.91024 13.0809 6.93826 13.102 6.97294C13.1232 7.00762 13.1341 7.04756 13.1336 7.08818C13.1331 7.1288 13.1211 7.16845 13.0991 7.20258C13.077 7.2367 13.0458 7.26392 13.009 7.28111V7.28011Z"
+            fill="black"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M9.04598 5.865V8.613H7.03198V11.973H9.04598V21.959H13.18V11.974H15.955C15.955 11.974 16.215 10.363 16.341 8.601H13.197V6.303C13.197 5.96 13.647 5.498 14.093 5.498H16.347V2H13.283C8.94298 2 9.04598 5.363 9.04598 5.865Z"
+            fill="black"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M16.017 2H7.947C6.37015 2.00185 4.85844 2.62914 3.74353 3.74424C2.62862 4.85933 2.00159 6.37115 2 7.948L2 16.018C2.00185 17.5948 2.62914 19.1066 3.74424 20.2215C4.85933 21.3364 6.37115 21.9634 7.948 21.965H16.018C17.5948 21.9631 19.1066 21.3359 20.2215 20.2208C21.3364 19.1057 21.9634 17.5938 21.965 16.017V7.947C21.9631 6.37015 21.3359 4.85844 20.2208 3.74353C19.1057 2.62862 17.5938 2.00159 16.017 2V2ZM19.957 16.017C19.957 16.5344 19.8551 17.0468 19.6571 17.5248C19.4591 18.0028 19.1689 18.4371 18.803 18.803C18.4371 19.1689 18.0028 19.4591 17.5248 19.6571C17.0468 19.8551 16.5344 19.957 16.017 19.957H7.947C6.90222 19.9567 5.90032 19.5415 5.16165 18.8026C4.42297 18.0638 4.008 17.0618 4.008 16.017V7.947C4.00827 6.90222 4.42349 5.90032 5.16235 5.16165C5.90122 4.42297 6.90322 4.008 7.948 4.008H16.018C17.0628 4.00827 18.0647 4.42349 18.8034 5.16235C19.542 5.90122 19.957 6.90322 19.957 7.948V16.018V16.017Z"
+            fill="black"
+          />
+          <path
+            d="M11.9821 6.81909C10.6135 6.82121 9.3016 7.36588 8.33397 8.3337C7.36633 9.30152 6.82192 10.6135 6.82007 11.9821C6.82166 13.351 7.36609 14.6634 8.33397 15.6315C9.30185 16.5996 10.6142 17.1442 11.9831 17.1461C13.3522 17.1445 14.6647 16.5999 15.6328 15.6318C16.6009 14.6637 17.1455 13.3512 17.1471 11.9821C17.145 10.6132 16.6 9.30098 15.6318 8.33329C14.6635 7.3656 13.351 6.82141 11.9821 6.82009V6.81909ZM11.9821 15.1381C11.1453 15.1381 10.3428 14.8057 9.75115 14.214C9.15947 13.6223 8.82707 12.8198 8.82707 11.9831C8.82707 11.1463 9.15947 10.3438 9.75115 9.75217C10.3428 9.16049 11.1453 8.82809 11.9821 8.82809C12.8188 8.82809 13.6213 9.16049 14.213 9.75217C14.8047 10.3438 15.1371 11.1463 15.1371 11.9831C15.1371 12.8198 14.8047 13.6223 14.213 14.214C13.6213 14.8057 12.8188 15.1381 11.9821 15.1381Z"
+            fill="black"
+          />
+          <path
+            d="M17.1559 8.09509C17.8391 8.09509 18.3929 7.54127 18.3929 6.85809C18.3929 6.17492 17.8391 5.62109 17.1559 5.62109C16.4728 5.62109 15.9189 6.17492 15.9189 6.85809C15.9189 7.54127 16.4728 8.09509 17.1559 8.09509Z"
+            fill="black"
+          />
+        </svg>
+      </div>
+      <div class="footer-rights-whole">
+        <p class="footer-rights">Atlas Divin @ 2025. Tous droits réservés</p>
+      </div>
+    </footer>
 
     <script src="js/main.js" type="module"></script>
   </body>
