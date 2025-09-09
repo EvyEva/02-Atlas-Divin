@@ -14,13 +14,19 @@ video {
 }
 
 html {
-  --color-bg: aqua;
+  --color-bg: white;
   --color-text-main: blue;
   --color-text-secondary: red;
+  --color-grey-text: #515050;
+  --color-grey-light-mode: #bcbfc3;
+  --color-blue: #279ef8;
+  --color-yellow: #f8af27;
+  --color-green: #12965d;
+  --color-red: #f82727;
 }
 
 html[data-theme="dark"] {
-  --color-bg: #696a6c;
+  --color-bg: #515050;
   --color-text-main: #f7f6f6;
   --color-text-secondary: #ffffff;
 }
@@ -31,4 +37,56 @@ html[data-theme="light"] .button-into-dark-mode {
 
 html[data-theme="dark"] .button-into-light-mode {
   display: none;
+}
+
+body {
+  color: var(--color-grey-text);
+  font-family: "Bubbler One";
+}
+
+h1 {
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h4 {
+  font-family: "Caesar Dressing";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h5 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header {
+  background-color: var(--color-grey-light-mode);
+}
+
+footer {
+  background-color: var(--color-grey-light-mode);
 }

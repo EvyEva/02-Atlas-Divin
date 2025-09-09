@@ -1,0 +1,48 @@
+.filter-whole {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.filter-whole button {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: none;
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+
+.filter-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.filter-greek {
+  background-color: var(--color-blue);
+}
+.filter-egypt {
+  background-color: var(--color-yellow);
+}
+.filter-norse {
+  background-color: var(--color-green);
+}
+.filter-roman {
+  background-color: var(--color-red);
+}
+
+.filter-arrow {
+  justify-content: flex-end;
+}
