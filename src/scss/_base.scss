@@ -15,20 +15,24 @@ video {
 
 html {
   --color-bg: white;
-  --color-text-main: blue;
-  --color-text-secondary: red;
   --color-grey-text: #515050;
   --color-grey-light-mode: #bcbfc3;
   --color-blue: #279ef8;
   --color-yellow: #f8af27;
   --color-green: #12965d;
   --color-red: #f82727;
+  --color-black: black;
 }
 
 html[data-theme="dark"] {
   --color-bg: #515050;
-  --color-text-main: #f7f6f6;
-  --color-text-secondary: #ffffff;
+  --color-grey-text: #f7f6f6;
+  --color-grey-light-mode: #696a6c;
+  --color-blue: #a3d7ff;
+  --color-yellow: #f7f43e;
+  --color-green: #76e5b5;
+  --color-red: #f8a7a7;
+  --color-black: #f7f6f6;
 }
 
 html[data-theme="light"] .button-into-dark-mode {
@@ -42,6 +46,11 @@ html[data-theme="dark"] .button-into-light-mode {
 body {
   color: var(--color-grey-text);
   font-family: "Bubbler One";
+  background-color: var(--color-bg);
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -50,6 +59,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: black;
 }
 
 h2 {
