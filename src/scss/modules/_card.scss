@@ -1,0 +1,41 @@
+.card-whole {
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+}
+
+.card-image {
+  background-image: url("../Images/athena.png");
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 216px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-description {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: stretch;
+  background-color: var(--color-white);
+}
+
+.card-pantheon-whole {
+  display: flex;
+  gap: 12px;
+  align-self: stretch;
+  font-size: 20px;
+  line-height: normal;
+  justify-content: space-between;
+}
+
+.card-bookmark {
+  align-self: flex-end;
+  margin: 12px 12px 0 0;
+}

@@ -22,6 +22,7 @@ html {
   --color-green: #12965d;
   --color-red: #f82727;
   --color-black: black;
+  --color-white: white;
 }
 
 html[data-theme="dark"] {
@@ -33,6 +34,7 @@ html[data-theme="dark"] {
   --color-green: #76e5b5;
   --color-red: #f8a7a7;
   --color-black: #f7f6f6;
+  --color-white: #515050;
 }
 
 html[data-theme="light"] .button-into-dark-mode {
@@ -95,6 +97,16 @@ h5 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+h6 {
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--color-white);
+  padding: 12px;
 }
 
 header {
