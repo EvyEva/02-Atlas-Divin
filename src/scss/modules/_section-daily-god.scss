@@ -1,0 +1,26 @@
+.section-daily-god-whole {
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--color-grey-text);
+}
+
+.section-daily-god-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.section-daily-god-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}

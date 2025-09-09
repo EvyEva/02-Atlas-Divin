@@ -58,6 +58,10 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  padding-bottom: 24px;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 h3 {
