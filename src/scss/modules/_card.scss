@@ -18,7 +18,11 @@
   background-size: cover;
 }
 
-.card-image card-2 {
+.card-whole.card-red-one {
+  border: 2px solid var(--red, #279ef8);
+}
+
+.card-red-one .card-image {
   background-image: url("../Images/mars.png");
 }
 
