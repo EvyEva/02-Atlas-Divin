@@ -3,7 +3,7 @@
   gap: 10px;
   align-self: stretch;
   border-radius: 8px;
-  border: 2px solid var(--Blue, #279ef8);
+  border: 2px solid var(--color-blue);
   margin-top: 20px;
 }
 
@@ -18,12 +18,140 @@
   background-size: cover;
 }
 
-.card-whole.card-red-one {
-  border: 2px solid var(--red, #279ef8);
+.card-whole.card-mars {
+  border: 2px solid var(--color-red);
 }
 
-.card-red-one .card-image {
+.card-whole.card-mars h6 {
+  color: var(--color-red);
+}
+
+.card-mars .card-image {
   background-image: url("../Images/mars.png");
+}
+
+///////////////////////////
+
+.card-whole.card-ra {
+  border: 2px solid var(--color-yellow);
+}
+
+.card-whole.card-ra h6 {
+  color: var(--color-yellow);
+}
+
+.card-ra .card-image {
+  background-image: url("../Images/ra.png");
+}
+
+///////////////////////////
+
+.card-whole.card-freya {
+  border: 2px solid var(--color-green);
+}
+
+.card-whole.card-freya h6 {
+  color: var(--color-green);
+}
+
+.card-freya .card-image {
+  background-image: url("../Images/freya.png");
+}
+
+///////////////////////////
+
+.card-whole.card-loki {
+  border: 2px solid var(--color-green);
+}
+
+.card-whole.card-loki h6 {
+  color: var(--color-green);
+}
+
+.card-loki .card-image {
+  background-image: url("../Images/loki.png");
+}
+
+///////////////////////////
+
+.card-whole.card-fortuna {
+  border: 2px solid var(--color-red);
+}
+
+.card-whole.card-fortuna h6 {
+  color: var(--color-red);
+}
+
+.card-fortuna .card-image {
+  background-image: url("../Images/fortuna.png");
+}
+
+///////////////////////////
+
+.card-artemis .card-image {
+  background-image: url("../Images/artemis.png");
+}
+
+///////////////////////////
+
+.card-whole.card-anubis {
+  border: 2px solid var(--color-yellow);
+}
+
+.card-whole.card-anubis h6 {
+  color: var(--color-yellow);
+}
+
+.card-anubis .card-image {
+  background-image: url("../Images/anubis.png");
+}
+
+///////////////////////////
+
+.card-zeus .card-image {
+  background-image: url("../Images/zeus.png");
+}
+
+///////////////////////////
+
+.card-whole.card-lucifer {
+  border: 2px solid var(--color-red);
+}
+
+.card-whole.card-lucifer h6 {
+  color: var(--color-red);
+}
+
+.card-lucifer .card-image {
+  background-image: url("../Images/lucifer.png");
+}
+
+///////////////////////////
+
+.card-whole.card-hel {
+  border: 2px solid var(--color-green);
+}
+
+.card-whole.card-hel h6 {
+  color: var(--color-green);
+}
+
+.card-hel .card-image {
+  background-image: url("../Images/hel.png");
+}
+
+///////////////////////////
+
+.card-whole.card-isis {
+  border: 2px solid var(--color-yellow);
+}
+
+.card-whole.card-isis h6 {
+  color: var(--color-yellow);
+}
+
+.card-isis .card-image {
+  background-image: url("../Images/isis.png");
 }
 
 .card-description {
