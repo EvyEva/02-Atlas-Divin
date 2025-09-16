@@ -4,6 +4,7 @@
   align-self: stretch;
   border-radius: 8px;
   border: 2px solid var(--Blue, #279ef8);
+  margin-top: 20px;
 }
 
 .card-image {
@@ -15,6 +16,10 @@
   height: 216px;
   background-position: center;
   background-size: cover;
+}
+
+.card-image card-2 {
+  background-image: url("../Images/mars.png");
 }
 
 .card-description {
