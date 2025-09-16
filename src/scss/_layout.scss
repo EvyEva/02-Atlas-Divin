@@ -1,8 +1,26 @@
 .nav-pop-up {
-  background-color: var(--color-bg);
+  border-top: 1px solid var(--color-black);
+  background-color: var(--color-grey-light-mode);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 20px 12px;
 }
 
-.nav-pop-up-icon {
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.nav-pop-up-burger {
   color: var(--color-grey-text);
 }
 

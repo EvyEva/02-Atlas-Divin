@@ -142,6 +142,11 @@ h6 {
 
 header {
   background-color: var(--color-grey-light-mode);
+  display: flex;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 footer {
