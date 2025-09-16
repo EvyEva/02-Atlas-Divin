@@ -50,3 +50,10 @@
 .filter-title {
   color: var(--color-white);
 }
+
+@media (min-width: 992px) {
+  .filter-whole {
+    position: sticky;
+    top: 100px;
+  }
+}

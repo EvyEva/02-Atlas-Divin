@@ -25,3 +25,22 @@ function toggle() {
 }
 
 burger.addEventListener("click", toggle);
+
+// On commence par créer deux variables JavaScript,
+// pour sélectionner chacune un des deux boutons (light et dark)
+const toggleDarkModeBtn2 = document.querySelector(".button-into-light-mode-2");
+const toggleLightModeBtn2 = document.querySelector(".button-into-dark-mode-2");
+
+// Clic sur "Dark mode" → passage au thème sombre
+toggleDarkModeBtn2.addEventListener("click", function () {
+  // Lors du clic sur le bouton "Dark mode", nous voulons que
+  // l'attribut data-theme de la balise <html> prenne pour valeur "dark"
+  document.querySelector("html").setAttribute("data-theme", "dark");
+});
+
+// Clic sur "Light mode" → passage au thème clair
+toggleLightModeBtn2.addEventListener("click", function () {
+  // Lors du clic sur le bouton "Light mode", nous voulons que
+  // l'attribut data-theme de la balise <html> prenne pour valeur "light"
+  document.querySelector("html").setAttribute("data-theme", "light");
+});
