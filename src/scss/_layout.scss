@@ -99,3 +99,16 @@ footer {
 .footer-icon {
   color: var(--color-black);
 }
+
+footer {
+  background-color: var(--color-grey-light-mode);
+}
+
+@media (min-width: 992px) {
+  .footer-links {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 16px;
+  }
+}
