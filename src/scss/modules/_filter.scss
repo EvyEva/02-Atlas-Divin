@@ -49,6 +49,8 @@
 
 .filter-title {
   color: var(--color-white);
+  display: flex;
+  flex: 1 0 0;
 }
 
 @media (min-width: 992px) {

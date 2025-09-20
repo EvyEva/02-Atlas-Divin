@@ -81,16 +81,8 @@ button {
   transition: transform 0.2s ease-in-out;
 }
 
-.button-into-dark-mode:hover {
-  transform: scale(1.1);
-}
-
 .button-into-light-mode {
   transition: transform 0.2s ease-in-out;
-}
-
-.button-into-light-mode:hover {
-  transform: scale(1.1);
 }
 
 body {
@@ -126,7 +118,7 @@ h2 {
   font-weight: 400;
   line-height: normal;
   display: flex;
-  padding-bottom: 24px;
+  padding-bottom: 44px;
   align-items: flex-start;
   align-self: stretch;
 }

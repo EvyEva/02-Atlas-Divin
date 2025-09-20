@@ -26,7 +26,7 @@ ul {
 }
 
 .nav-pop-up-burger {
-  color: var(--color-grey-text);
+  color: var(--color-black);
 }
 
 .layout-gods {
@@ -53,6 +53,13 @@ footer {
   gap: 40px;
   margin-top: 20px;
   background-color: var(--color-grey-light-mode);
+}
+
+@media (min-width: 992px) {
+  footer {
+    padding: 40px 80px;
+    margin-top: 40px;
+  }
 }
 
 .footer-links {
