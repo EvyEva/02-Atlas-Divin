@@ -77,6 +77,22 @@ button {
   border: 1px solid #000;
 }
 
+.button-into-dark-mode {
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-into-dark-mode:hover {
+  transform: scale(1.1);
+}
+
+.button-into-light-mode {
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-into-light-mode:hover {
+  transform: scale(1.1);
+}
+
 body {
   color: var(--color-grey-text);
   font-family: "Bubbler One";
