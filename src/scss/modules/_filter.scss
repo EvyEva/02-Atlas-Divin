@@ -4,6 +4,13 @@
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
+  margin-top: 0px;
+}
+
+@media (min-width: 992px) {
+  .filter-whole {
+    margin-top: 20px;
+  }
 }
 
 .filter-whole button {
@@ -41,6 +48,7 @@
 }
 .filter-roman {
   background-color: var(--color-red);
+  margin-bottom: 40px;
 }
 
 .filter-arrow {
